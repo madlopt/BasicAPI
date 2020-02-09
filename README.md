@@ -24,7 +24,7 @@ several categories);
 - Multiple configs (you can load any config by passing GET parameter `config=filenamewithoutextension`, `local.php` will be loaded by default)
 - Registry (set/get)
 
-See [MyRoutes.php](!https://github.com/madlopt/BasicAPI/blob/master/request_samples_local.http) to review all available routes and see how it works. The API tries to catch any possible error and give appropriate response.
+See [`MyRoutes.php`](!https://github.com/madlopt/BasicAPI/blob/master/request_samples_local.http) to review all available routes and see how it works. The API tries to catch any possible error and give appropriate response.
 
 ### Database structure
 
@@ -45,7 +45,7 @@ See [MyRoutes.php](!https://github.com/madlopt/BasicAPI/blob/master/request_samp
 
 ### Tips
 
-Please check [request_samples_local.http](!https://github.com/madlopt/BasicAPI/blob/master/request_samples_local.http) file inside your PHPStorm to run all request samples.
+Please check [`request_samples_local.http`](!https://github.com/madlopt/BasicAPI/blob/master/request_samples_local.http) file inside your PHPStorm to run all request samples.
 The repository is there https://github.com/madlopt/BasicAPI
 
 ### Requirements

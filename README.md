@@ -24,7 +24,7 @@ several categories);
 - Multiple configs (you can load any config by passing GET parameter `config=filenamewithoutextension`, `local.php` will be loaded by default)
 - Registry (set/get)
 
-See `MyRoutes.php` to review all available routes and see how it works. The API tries to catch any possible error and give appropriate response.
+See [MyRoutes.php](!https://github.com/madlopt/BasicAPI/blob/master/request_samples_local.http) to review all available routes and see how it works. The API tries to catch any possible error and give appropriate response.
 
 ### Database structure
 
@@ -45,14 +45,14 @@ See `MyRoutes.php` to review all available routes and see how it works. The API 
 
 ### Tips
 
-Please check `request_samples_local.http` file inside your PHPStorm to run all request samples.
-The repository is there https://github.com/madlopt/basic-api
+Please check [request_samples_local.http](!https://github.com/madlopt/BasicAPI/blob/master/request_samples_local.http) file inside your PHPStorm to run all request samples.
+The repository is there https://github.com/madlopt/BasicAPI
 
 ### Requirements
 
 - PHP 7.4 or newer
 - sqlite3 extension
-- R/W rights on directories: `var/logs`, `var/db`
+- R/W rights on directories: `var/logs`, `var/db` or on `var` and all sub-directories.
 - Apache Web Server with mod_rewrite. If you do not have Apache, you need to set rewrite rule: all requests for API's directory must be rewritten to `public/index.php`.
 
 ### API Methods

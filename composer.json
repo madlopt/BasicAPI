@@ -1,0 +1,17 @@
+{
+  "autoload": {
+    "psr-4": {
+      "BasicAPI\\": "app/BasicAPI/",
+      "App\\": "app/"
+    }
+  },
+  "require": {
+    "monolog/monolog": "^2.0",
+    "noahbuscher/macaw": "dev-master",
+    "php-extended/php-http-message-psr7": "dev-master",
+    "ext-sqlite3": "*",
+    "ext-pdo_sqlite": "*",
+    "ext-json": "*",
+    "ext-apache": "*"
+  }
+}

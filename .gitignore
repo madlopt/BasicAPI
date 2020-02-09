@@ -1,0 +1,5 @@
+vendor
+/.idea/
+/var/logs/*
+!.gitignore
+!public/.htaccess

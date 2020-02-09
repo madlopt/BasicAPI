@@ -1,0 +1,57 @@
+### Get all products
+GET http://test-api.local/products?config=asdad
+
+### Get all categories
+GET http://test-api.local/categories
+
+### Get a specific category
+GET http://test-api.local/categories/1
+
+### Get all products within specific category
+GET http://test-api.local/categories/1/products
+
+### Create product
+POST http://test-api.local/products
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer secure_token1
+
+{"name":"lalalala5","category_id":2}
+
+### Update product
+PUT http://test-api.local/products
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer secure_token1
+
+{"id":27,"name":"lalalal9999","category_id":2}
+
+### Delete product
+DELETE http://test-api.local/products/20
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer secure_token1
+
+### Create category
+POST http://test-api.local/categories
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer secure_token1
+
+{"name":"ExampleCategory000"}
+
+### Update category
+PUT http://test-api.local/categories
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer secure_token1
+
+{"id":9,"name":"ChangedName"}
+
+### Delete category
+DELETE http://test-api.local/categories/12
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer secure_token1
+
+###
